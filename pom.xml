@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <groupId>com.gvstave.sdk</groupId>
+    <artifactId>mistergift-sdk</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>mistergift-sdk</name>
+    <url>http://maven.apache.org</url>
+
+    <repositories>
+        <repository>
+            <id>spring-data-2.0.0.M1</id>
+            <name>Alfresco</name>
+            <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
+        </repository>
+    </repositories>
+
+    <modules>
+        <module>cdiscount-sdk</module>
+        <module>commons-sdk</module>
+    </modules>
+</project>
